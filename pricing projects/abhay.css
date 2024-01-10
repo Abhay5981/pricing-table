@@ -1,0 +1,50 @@
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    background-color: blueviolet;
+    
+   }
+   .pricing-plan {
+    flex: 2;
+    max-width: 680px;
+    background-color: rgb(101, 100, 100);
+    text-align: center;
+    border-radius: 20%;
+    padding: 20px;
+
+   }
+   .plan-title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+   }
+   .plan-price {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+   }
+   .plan-fetures p {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+
+   }
+   .plan-button {
+    background-color: brown;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+
+   }
+   @media (max-width: 850px) {
+    .pricing-container {
+        flex-direction: column;
+        height: 100%;
+    }
+   }
